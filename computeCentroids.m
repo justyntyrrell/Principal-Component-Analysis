@@ -19,24 +19,5 @@ for i = 1:K
   findC = (i == idx);
   centroids(i, :) = (X' * findC)/sum(findC);
 
-% ====================== YOUR CODE HERE ======================
-% Instructions: Go over every centroid and compute mean of all points that
-%               belong to it. Concretely, the row vector centroids(i, :)
-%               should contain the mean of the data points assigned to
-%               centroid i.
-%
-% Note: You can use a for-loop over the centroids to compute this.
-%
-
-
-
-
-
-
-
-
-% =============================================================
-
-
 end
 
